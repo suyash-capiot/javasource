@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Oracle OSB Modules"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Oracle OSB Tools - ConfigJAR"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Oracle Weblogic Modules - Clients"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Oracle Common Modules - ODL"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Oracle Weblogic Libraries"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Oracle Common Modules"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Oracle OSB Libraries - External"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Oracle SOA Modules - SOA Fabric 11.1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Oracle Common Modules - XDK"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Oracle SOA Modules - DVMXRef"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Oracle OSB Libraries - Transports"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache Ant 1.9.2"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soa-xpath-functions xmlns="http://xmlns.oracle.com/soa/config/xpath"
+	xmlns:cnkf="http://www.oracle.com/XSL/Transform/java/com.cnk.travelogix.util.CNKFunctions">
+	<function name="cnkf:decrypt">
+		<className>com.cnk.travelogix.util.CNKFunctions</className>
+		<return type="string" />
+		<params>
+			<param name="encryptedString" type="string" />
+		</params>
+		<desc resourceKey="cnk-xpath-decrypt-desc-key">Decrypt an encrypted string</desc>
+		<group>Cox and Kings Functions</group>
+	</function>
+	<function name="cnkf:encrypt">
+		<className>com.cnk.travelogix.util.CNKFunctions</className>
+		<return type="string" />
+		<params>
+			<param name="cleartextString" type="string" />
+		</params>
+		<desc>Encrypt a clear text string</desc>
+		<group>Cox and Kings Functions</group>
+	</function>
+	<function name="cnkf:epochToDate">
+		<className>com.cnk.travelogix.util.CNKFunctions</className>
+		<return type="string" />
+		<params>
+			<param name="epochValueAsString" type="string" />
+		</params>
+		<desc>Converts UTC to DateTime</desc>
+		<group>Cox and Kings Functions</group>
+	</function>
+	<function name="cnkf:calculateJourneyDuration">
+		<className>com.cnk.travelogix.util.CNKFunctions</className>
+		<return type="string" />
+		<params>
+			<param name="departureTimeAsString" type="string" />
+			<param name="departureOffsetAsString" type="string" />
+			<param name="arrivalTimeAsString" type="string" />
+			<param name="arrivalOffsetAsString" type="string" />
+		</params>
+		<desc>Calculate Journey Duration</desc>
+		<group>Cox and Kings Functions</group>
+	</function>
+	<function name="cnkf:crossRefLookup">
+		<className>com.cnk.travelogix.util.CNKFunctions</className>
+		<return type="string" />
+		<params>
+			<param name="sourceSystem" type="string" />
+			<param name="sourceEntity" type="string" />
+			<param name="sourceEnityValue" type="string" />
+			<param name="targetSystem" type="string" />
+		</params>
+		<desc>Lookup Cross-reference Value</desc>
+		<detail>This function gets cross-reference value. The method signature is cnk:crossRefLookup(String sourceSystem, String sourceEntity, String sourceEntityValue, String targetSystem).
+				The arguments to the function are: 1) sourceSystem = The system from where the entity value is coming and needs to be converted to target system value. For example, DOTW, 
+				INDIGO, TLGX etc.  2) sourceEntity = The entity for which the value needs to be converted. For example, city, country, hotelcode etc.   3) sourceEntityValue = The value that 
+				needs to be converted to target system value. For example, in case of a country the value here could be IND, UK, US etc.   4) targetSytem = The system to which the value 
+				needs to be converted. For example, DOTW, INDIGO, TLGX etc.</detail>
+		<group>Cox and Kings Functions</group>
+	</function>
+</soa-xpath-functions>

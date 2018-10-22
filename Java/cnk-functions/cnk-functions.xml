@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xpf:xpathFunctions xmlns:xpf="http://www.bea.com/wli/sb/xpath/config">
+    <xpf:category id="%CNK_FUNCTIONS%">
+            <xpf:function>
+                <xpf:name>decrypt</xpf:name>
+                <xpf:comment>%CNK_COMMENT_DECRYPT%</xpf:comment>
+                <xpf:namespaceURI>http://www.coxandkings.com/integ/suppl/osb/xpath-functions</xpf:namespaceURI>
+                <xpf:className>com.cnk.travelogix.util.CryptoUtil</xpf:className>
+                <xpf:method>java.lang.String decrypt(java.lang.String)</xpf:method>
+                <xpf:isDeterministic>false</xpf:isDeterministic>
+            </xpf:function>
+            <xpf:function>
+                <xpf:name>encrypt</xpf:name>
+                <xpf:comment>%CNK_COMMENT_ENCRYPT%</xpf:comment>
+                <xpf:namespaceURI>http://www.coxandkings.com/integ/suppl/osb/xpath-functions</xpf:namespaceURI>
+                <xpf:className>com.cnk.travelogix.util.CryptoUtil</xpf:className>
+                <xpf:method>java.lang.String encrypt(java.lang.String)</xpf:method>
+                <xpf:isDeterministic>false</xpf:isDeterministic>
+            </xpf:function>
+			<xpf:function>
+                <xpf:name>epochToDate</xpf:name>
+                <xpf:comment>%UTC_COMMENT_DATETIME%</xpf:comment>
+                <xpf:namespaceURI>http://www.coxandkings.com/integ/suppl/osb/xpath-functions</xpf:namespaceURI>
+                <xpf:className>com.cnk.travelogix.util.EpochConverter</xpf:className>
+                <xpf:method>java.lang.String epochToDate(java.lang.String)</xpf:method>
+                <xpf:isDeterministic>false</xpf:isDeterministic>
+            </xpf:function>
+            <xpf:function>
+                <xpf:name>calculateJourneyDuration</xpf:name>
+                <xpf:comment>%CNK_JOURNEY_DURATION%</xpf:comment>
+                <xpf:namespaceURI>http://www.coxandkings.com/integ/suppl/osb/xpath-functions</xpf:namespaceURI>
+                <xpf:className>com.cnk.travelogix.util.Journey_Duration</xpf:className>
+                <xpf:method>java.lang.String calculateJourneyDuration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)</xpf:method>
+                <xpf:isDeterministic>false</xpf:isDeterministic>
+            </xpf:function>
+            <xpf:function>
+                <xpf:name>crossRefLookup</xpf:name>
+                <xpf:comment>%CNK_XREF_LOOKUP%</xpf:comment>
+                <xpf:namespaceURI>http://www.coxandkings.com/integ/suppl/osb/xpath-functions</xpf:namespaceURI>
+                <xpf:className>com.cnk.travelogix.util.CrossRef</xpf:className>
+                <xpf:method>java.lang.String lookup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)</xpf:method>
+                <xpf:isDeterministic>false</xpf:isDeterministic>
+            </xpf:function>
+            
+    </xpf:category>
+</xpf:xpathFunctions>
